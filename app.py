@@ -87,7 +87,7 @@ def main():
 
     # Load classification model
     with st.spinner('Loading classification model...'):
-        filename= 'ClothdataFinalGSLinearSVMmodelWithOtherModels.sav'
+        filename= 'FinalGSLinearSVMmodelWithOtherModels.sav'
         saved_GSLinearSVMclf = pickle.load(open(filename, 'rb'))
 
     #classifie individual reviews
