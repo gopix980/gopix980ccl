@@ -58,7 +58,7 @@ def vectorizer(my_text):
 
 def main():
     # Set page title
-    st.title('Content based Sentiment Analysis of Product Reviews ')
+    st.title('Product Review Classifier Web app ')
 
 
 
